@@ -1,0 +1,17 @@
+Kubectl run nginx-pod —image=nginx:latest
+
+kubectl get pods
+
+kubectl get pods —watch
+
+Kubectl describle nginx-pod
+
+kubectl apply -f primeiro-pod.yaml
+
+Kubectl edit pod nginx-pod
+
+kubectl delete pod nginx-pod
+
+kubectl delete -f primeiro-pod.yaml
+
+kubectl  exec -it portal-noticias -- bash
