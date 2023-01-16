@@ -17,3 +17,5 @@ kubectl delete -f primeiro-pod.yaml
 kubectl  exec -it portal-noticias -- bash
 
 kubectl get svc ou kubectl get service
+
+kubectl get nodes -o wide
